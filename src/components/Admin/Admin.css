@@ -1,0 +1,18 @@
+.admin-action {
+  font-family: var(--font-family);
+  font-weight: 400;
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.admin-cta {
+  margin-top: 20px;
+}
+
+.admin-input {
+  margin-top: 10px;
+}

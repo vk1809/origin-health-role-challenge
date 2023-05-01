@@ -1,0 +1,46 @@
+p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--text-color);
+  text-align: center;
+  margin-top: 20px;
+}
+
+img {
+  width: 250px;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
+}
+
+.image-card {
+  width: 250px;
+  height: 380px;
+  background-color: var(--card-color);
+  display: inline-block;
+  margin: 40px 40px 10px 40px;
+  border-radius: 10px;
+}
+
+.image-card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10px 10px 10px;
+}
+
+.assign {
+  display: flex;
+  justify-content: space-between;
+}
